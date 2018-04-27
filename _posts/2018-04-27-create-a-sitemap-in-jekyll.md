@@ -1,6 +1,5 @@
 ---
 published: true
-lastmod: '2018-04-27 22:41 +0900'
 title: Create a sitemap in Jekyll
 date: '2018-04-27 22:58 +0900'
 ---

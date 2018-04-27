@@ -1,7 +1,7 @@
 prose:
   metadata:
     _posts:
-      -name: "published"
+      - name: "published"
         field:
           element: "hidden"
           value: "true"

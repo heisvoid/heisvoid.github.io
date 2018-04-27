@@ -1,11 +1,54 @@
+{% if 'post' == page.layout %}
+  {% assign post = page %}
+{% else %}
+  {% assign post = site.posts.first %}
+{% endif %}
+
 <!doctype html>
 <html lang="ko">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }}</title>
+    <title>
+      {% if post %}
+        {{ post.title }}      
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </title>
   </head>
+  
   <body>
-    {{ content }}
+    <a href="{{ site.url }}">Home</a>
+
+    {% if post %}
+      <!-- Link to newer post if exists -->
+      &nbsp;
+      {% if post.next %}
+        <a href="{{ post.next.url }}">Newer post</a>
+      {% else %}
+        <del>Newer post</del>
+      {% endif %}
+
+      <!-- Link to older post if exists -->
+      &nbsp;
+      {% if post.previous %}
+        <a href="{{ post.previous.url }}">Older post</a>
+      {% else %}
+        <del>Older post</del>
+      {% endif %}
+
+      <!-- To view repository of this post, link to Github -->
+      &nbsp;
+      <a href="{{ site.github.repository_url }}/blob/master/{{ post.path }}">Github</a>
+
+      <!-- To edit this post, link to Prose -->
+      &nbsp;
+      <a href="https://prose.io/#{{ site.github.owner_name }}/{{ site.github.owner_name }}.{{ site.github.pages_hostname }}/edit/master/{{ post.path }}">Prose</a>
+
+      <h1>{{ post.title }}</h1>
+
+      {{ post.content }}
+    {% endif %}
   </body>
 </html>

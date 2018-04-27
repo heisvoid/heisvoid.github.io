@@ -1,6 +1,10 @@
 prose:
   metadata:
     _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: title
       - name: "lastmod"
         field:
           element: "text"

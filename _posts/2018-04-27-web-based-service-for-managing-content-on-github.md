@@ -4,4 +4,4 @@ published: true
 ---
 <https://prose.io>
 
-You can write and edit posts with Prose.io.
+With Prose.io, you can write and edit posts of Github Pages.

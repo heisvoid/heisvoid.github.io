@@ -9,8 +9,8 @@ prose:
         field:
           element: "text"
           label: title
-      - name: "lastmod"
+      - name: "date"
         field:
           element: "text"
-          label: "lastmod"
+          label: "date"
           value: CURRENT_DATETIME

@@ -6,3 +6,8 @@ prose:
           element: "checkbox"
           label: "published"
           value: "true"
+      - name: "lastmod"
+        field:
+          element: "text"
+          label: "lastmod"
+          value: CURRENT_DATETIME

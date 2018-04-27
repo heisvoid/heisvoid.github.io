@@ -3,9 +3,8 @@ prose:
     _posts:
       - name: "published"
         field:
-          element: "checkbox"
+          element: "hidden"
           value: "true"
-          label: "published"
       - name: "title"
         field:
           element: "text"

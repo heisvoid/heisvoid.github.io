@@ -5,7 +5,8 @@
   {% for post in site.posts %}
     {% unless false == post.published %}
       <url>
-        <loc>{{ site.url }}{{ post.url }}</loc>        
+        <loc>{{ site.url }}{{ post.url }}</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
         <changefreq>daily</changefreq>
       </url>
     {% endunless %}

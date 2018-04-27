@@ -6,7 +6,9 @@
     {% unless false == post.published %}
       <url>
         <loc>{{ site.url }}{{ post.url }}</loc>
+        <!-- This is not real last modification time of the post. -->
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        <!-- This is not real change frequency of the post. -->
         <changefreq>daily</changefreq>
       </url>
     {% endunless %}

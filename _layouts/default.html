@@ -19,13 +19,13 @@
   </head>
   
   <body>
-    <a href="{{ site.url }}">Home</a>
+    <a href="{{ site.url }}">home</a>
 
     {% if post %}
       <!-- Link to newer post if exists -->
       &nbsp;
       {% if post.next %}
-        <a href="{{ post.next.url }}">Newer post</a>
+        <a href="{{ post.next.url }}">newer post</a>
       {% else %}
         <del>Newer post</del>
       {% endif %}
@@ -33,7 +33,7 @@
       <!-- Link to older post if exists -->
       &nbsp;
       {% if post.previous %}
-        <a href="{{ post.previous.url }}">Older post</a>
+        <a href="{{ post.previous.url }}">older post</a>
       {% else %}
         <del>Older post</del>
       {% endif %}

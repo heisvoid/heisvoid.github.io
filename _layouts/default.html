@@ -46,7 +46,13 @@
       &nbsp;
       <a href="https://prose.io/#{{ site.github.owner_name }}/{{ site.github.owner_name }}.{{ site.github.pages_hostname }}/edit/master/{{ post.path }}">Prose</a>
 
-      <h1>{{ post.title }}</h1>
+      <h1>
+        {% if 'home' == page.layout %}
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        {% else %}
+          {{ post.title }}
+        {% endif %}
+      </h1>
 
       {{ post.content }}
     {% endif %}

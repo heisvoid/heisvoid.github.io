@@ -5,10 +5,6 @@ prose:
         field:
           element: "hidden"
           value: "true"
-      - name: "title"
-        field:
-          element: "text"
-          label: title
       - name: "date"
         field:
           element: "text"

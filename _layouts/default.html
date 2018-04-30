@@ -19,7 +19,11 @@
   </head>
   
   <body>
-    <a href="{{ site.url }}">home</a>
+    {% if 'home' != page.layout %}
+      <a href="{{ site.url }}">home</a>
+    {% else %}
+      <del>home</del>
+    {% endif %}
 
     {% if post %}
       <!-- Link to newer post if exists -->
@@ -37,9 +41,6 @@
       {% else %}
         <del>older post</del>
       {% endif %}
-
-      &nbsp;
-      bookmarks
     
       <!-- To view repository of this post, link to Github -->
       &nbsp;

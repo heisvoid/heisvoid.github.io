@@ -26,8 +26,7 @@
     {% endif %}
 
     {% if post %}
-      <!-- Link to newer post if exists -->
-      
+      <!-- Link to newer post if exists -->      
       {% if 'post' == page.layout and post.next %}
         <a href="{{ post.next.url }}">newer</a>
       {% else %}
@@ -35,14 +34,13 @@
       {% endif %}
 
       <!-- Link to older post if exists -->
-      &nbsp;
       {% if 'post' == page.layout and post.previous %}
         <a href="{{ post.previous.url }}">older</a>
       {% else %}
         <del>older</del>
       {% endif %}
     
-      &nbsp;
+      <!-- Bookmarks -->
       {% if 'bookmarks' != page.layout %}
         <a href="{{ site.url }}/bookmarks.html">bookmarks</a>
       {% else %}
@@ -50,11 +48,9 @@
       {% endif %}
     
       <!-- To view repository of this post, link to Github -->
-      &nbsp;
       <a href="{{ site.github.repository_url }}/blob/master/{{ post.path }}">Github</a>
 
       <!-- To edit this post, link to Prose -->
-      &nbsp;
       <a href="https://prose.io/#{{ site.github.owner_name }}/{{ site.github.owner_name }}.{{ site.github.pages_hostname }}/edit/master/{{ post.path }}">Prose</a>
 
       <h1>

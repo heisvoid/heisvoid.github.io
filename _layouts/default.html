@@ -20,9 +20,9 @@
   
   <body>
     {% if 'home' != page.layout %}
-      <a href="{{ site.url }}">home</a>
+      <a href="{{ site.url }}"><small>home</small></a>
     {% else %}
-      <del>home</del>
+      <del><small>home</small></del>
     {% endif %}
 
     {% if post %}
@@ -45,9 +45,9 @@
       <!-- Bookmarks-->
       &nbsp;
       {% if 'bookmarks' != page.layout %}
-        <a href="{{ site.url }}/bookmarks.html">bookmark</a>
+        <a href="{{ site.url }}/bookmarks.html">bookmarks</a>
       {% else %}
-        <del>bookmark</del>
+        <del>bookmarks</del>
       {% endif %}
     
       <!-- To view repository of this post, link to Github -->

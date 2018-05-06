@@ -1,7 +1,7 @@
-{% if 'post' == page.layout %}
-  {% assign post = page %}
-{% else %}
+{% if 'home' == page.layout %}
   {% assign post = site.posts.first %}
+{% else %}
+  {% assign post = page %}  
 {% endif %}
 
 <!doctype html>
@@ -28,18 +28,25 @@
     {% if post %}
       <!-- Link to newer post if exists -->
       &nbsp;
-      {% if post.next %}
-        <a href="{{ post.next.url }}">newer post</a>
+      {% if 'post' == page.layout and post.next %}
+        <a href="{{ post.next.url }}">newer</a>
       {% else %}
-        <del>newer post</del>
+        <del>newer</del>
       {% endif %}
 
       <!-- Link to older post if exists -->
       &nbsp;
-      {% if post.previous %}
-        <a href="{{ post.previous.url }}">older post</a>
+      {% if 'post' == page.layout and post.previous %}
+        <a href="{{ post.previous.url }}">older</a>
       {% else %}
-        <del>older post</del>
+        <del>older</del>
+      {% endif %}
+    
+      &nbsp;
+      {% if 'bookmarks' != page.layout %}
+        <a href="{{ post.url }}">bookmarks</a>
+      {% else %}
+        <del>bookmarks</del>
       {% endif %}
     
       <!-- To view repository of this post, link to Github -->

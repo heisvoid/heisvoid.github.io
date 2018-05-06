@@ -27,7 +27,7 @@
 
     {% if post %}
       <!-- Link to newer post if exists -->
-      &nbsp;
+      
       {% if 'post' == page.layout and post.next %}
         <a href="{{ post.next.url }}">newer</a>
       {% else %}

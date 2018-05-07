@@ -28,7 +28,7 @@
     {% if post %}
       <!-- Link to newer post if exists -->      
       &nbsp;
-      {% if 'post' == page.layout and post.next %}
+      {% if post.next %}
         <a href="{{ post.next.url }}"><small>newer</small></a>
       {% else %}
         <del><small>newer</small></del>
@@ -36,7 +36,7 @@
 
       <!-- Link to older post if exists -->
       &nbsp;
-      {% if 'post' == page.layout and post.previous %}
+      {% if post.previous %}
         <a href="{{ post.previous.url }}"><small>older</small></a>
       {% else %}
         <del><small>older</small></del>

@@ -1,9 +1,8 @@
 ---
-layout: bookmark
+layout: bookmarks
 title: Bookmarks
 published: true
 ---
-## Test
 - [체험판 유튜브](https://www.youtube.com/user/archdevel/videos)
 - [ITSystem 유튜브](https://www.youtube.com/channel/UCamGhmqKC-TMgybo73XLbJw/videos)
 - [허수아비 유튜브](https://www.youtube.com/channel/UCyoqIWgyiQmxYiNP_l7KlyQ/videos)

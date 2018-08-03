@@ -5,7 +5,21 @@ title: Raspbian installation
 ---
 Currently, Pi-hole does not support Archlinux ARM. Pi-hole only supports Raspbian for RPi.
 
-~~See "Manually extracting partitions from the image on Linux"~~
-~~- <http://archive.is/CaPbT>~~
+How to make Raspbian SD card manually.
+1. Create the partition table on the SD card.
+2. Manually extracting data from Raspbian image.
+3. Change /boot/cmdline.txt and /etc/fstab.
+4. Prevent rootfs partition to expand.
 
-The above method does not work for 2018-06-27 Raspbian stretch lite image. So I use NOOBS.
+
+- <http://archive.is/EVHSf>
+- <http://archive.is/CaPbT>
+- <http://archive.is/sIsWP>
+- <http://archive.is/Fw79v>
+- <http://archive.is/A3K2n>
+- <http://archive.is/B6p24>
+- <http://archive.is/1JKsq>
+
+
+
+

@@ -8,9 +8,8 @@ Currently, Pi-hole does not support Archlinux ARM. Pi-hole only supports Raspbia
 How to make Raspbian SD card manually.
 1. Create the partition table on the SD card.
 2. Manually extracting data from Raspbian image.
-3. Change /boot/cmdline.txt and /etc/fstab.
+3. Edit /boot/cmdline.txt and /etc/fstab.
 4. Prevent rootfs partition to expand.
-
 
 - <http://archive.is/EVHSf>
 - <http://archive.is/CaPbT>

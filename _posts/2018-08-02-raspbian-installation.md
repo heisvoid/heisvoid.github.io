@@ -3,9 +3,9 @@ published: true
 date: '2018-08-02 17:05 +0900'
 title: Raspbian installation
 ---
-Currently, Pi-hole does not support Archlinux ARM. Pi-hole only supports Raspbian for RPi.
+Currently, Pi-hole does not support Archlinux ARM officially. Pi-hole only supports Raspbian for RPi.
 
-Headless Raspbian SD setup.
+Headless Raspbian setup.
 1. Create partitions/filesystems on the SD card.
 2. ~~Manually extracting data from Raspbian image.~~ This way makes that the partition size is different from the filesystem size. So download and extract boot.tar.xz and root.tar.xz manually.
 3. Edit /boot/cmdline.txt and /etc/fstab.

@@ -5,4 +5,5 @@ title: 라즈베리파이 아치리눅스 설정
 ---
 - <http://archive.is/y82vy>
 - <http://archive.is/aym6T>
-
+- <http://archive.is/5iz8E>
+- <http://archive.is/GHUJZ>

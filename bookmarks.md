@@ -17,3 +17,4 @@ published: true
 - [고고싱컴퓨터 유튜브](https://www.youtube.com/c/%EA%B3%A0%EA%B3%A0%EC%8B%B1%EC%BB%B4%ED%93%A8%ED%84%B0/videos)
 - [데일리컴 유튜브](https://www.youtube.com/c/%EB%8D%B0%EC%9D%BC%EB%A6%AC%EC%BB%B4/videos)
 - [도레 유튜브](https://www.youtube.com/c/%EB%8F%84%EB%A0%88/videos)
+- [민티저 유튜브](https://www.youtube.com/channel/UCtXUm3ABtdm_oK2LZ-Xcnhw/videos)

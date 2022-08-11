@@ -13,7 +13,6 @@ published: true
 - [민티저 유튜브](https://www.youtube.com/channel/UCtXUm3ABtdm_oK2LZ-Xcnhw/videos)
 - [체험판 유튜브](https://www.youtube.com/user/archdevel/videos)
 - [파주컴 유튜브](https://www.youtube.com/c/%ED%8C%8C%EC%A3%BC%EC%BB%B4/videos)
-- [동컴PC 유튜브](https://www.youtube.com/c/%EB%8F%99%EB%84%A4%EC%BB%B4%ED%8C%94%EC%9D%B4/videos)
 - [컴샵 유튜브](https://www.youtube.com/c/%EC%BB%B4%EC%83%B5/videos)
 - [ITSystem 유튜브](https://www.youtube.com/channel/UCamGhmqKC-TMgybo73XLbJw/videos)
 - [도레 유튜브](https://www.youtube.com/c/%EB%8F%84%EB%A0%88/videos)

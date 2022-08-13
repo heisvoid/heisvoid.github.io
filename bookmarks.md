@@ -14,6 +14,7 @@ published: true
 - [체험판 유튜브](https://www.youtube.com/user/archdevel/videos)
 - [파주컴 유튜브](https://www.youtube.com/c/%ED%8C%8C%EC%A3%BC%EC%BB%B4/videos)
 - [컴샵 유튜브](https://www.youtube.com/c/%EC%BB%B4%EC%83%B5/videos)
+- [컴퓨터월드G 유튜브](https://www.youtube.com/c/%EC%BB%B4%ED%93%A8%ED%84%B0%EC%9B%94%EB%93%9CG/videos)
 - [ITSystem 유튜브](https://www.youtube.com/channel/UCamGhmqKC-TMgybo73XLbJw/videos)
 - [도레 유튜브](https://www.youtube.com/c/%EB%8F%84%EB%A0%88/videos)
 - [대괴수 유튜브](https://www.youtube.com/channel/UCLab6iBolOz6ML6ImVyYpnw/videos)

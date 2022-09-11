@@ -15,6 +15,7 @@ published: true
 - [파주컴 유튜브](https://www.youtube.com/c/%ED%8C%8C%EC%A3%BC%EC%BB%B4/videos)
 - [컴샵 유튜브](https://www.youtube.com/c/%EC%BB%B4%EC%83%B5/videos)
 - [컴퓨터월드G 유튜브](https://www.youtube.com/c/%EC%BB%B4%ED%93%A8%ED%84%B0%EC%9B%94%EB%93%9CG/videos)
+- [컴메디컬 유튜브](https://www.youtube.com/channel/UCI8BfdQ-KlA6zbcrry6YwHA/videos)
 - [우주아빠tv 유튜브](https://www.youtube.com/c/%EC%9A%B0%EC%A3%BC%EC%95%84%EB%B9%A0TV/videos)
 - [우리동네도라이바tv 유튜브](https://www.youtube.com/c/%EC%9A%B0%EB%A6%AC%EB%8F%99%EB%84%A4%EB%8F%84%EB%9D%BC%EC%9D%B4%EB%B0%94TV/videos)
 - [컴바이컴tv 유튜브](https://www.youtube.com/channel/UC4GhLmaehQDI6yimtdClYWQ/videos)
